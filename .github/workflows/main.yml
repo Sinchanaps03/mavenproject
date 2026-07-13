@@ -1,7 +1,7 @@
 name: maven project
 on:
   push:
-    branches: [master]
+    branches: ["smaster"]
 
 jobs:
   build:
