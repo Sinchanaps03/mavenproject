@@ -27,8 +27,10 @@ pipeline {
         success {
             echo 'Maven build successful!'
         }
+    }
 
         failure {
             echo 'Maven build failed!'
         }
     }
+}
